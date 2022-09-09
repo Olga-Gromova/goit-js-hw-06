@@ -20,7 +20,6 @@ const markup = images
 	.join('')
 
 list.insertAdjacentHTML('beforeend', markup);
-
   
 const pictures = document.querySelectorAll('.picture');
 
@@ -28,5 +27,4 @@ list.style.display = 'flex';
 list.style.flexWrap = 'column';
 list.style.listStyle = 'none';
 list.style.gap = '15px';
-list.style.justifyContent = 'center';
-
+list.style.justifyContent = 'center';   
